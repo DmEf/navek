@@ -1,0 +1,110 @@
+.catalog-card {
+	width: 339px;
+	background: #FFFFFF;
+	box-shadow: 0 0 10px -5px #000000;
+	padding-bottom: 16px;
+	margin-bottom: 10px;
+	@media @tablet-widths {
+		width: 49%;
+		/*min-width: 339px;
+		max-width: 423px;*/
+	}
+	@media @desktop-widths {
+		width: 32%;
+	}
+	&__logo {
+		margin-bottom: 26px;
+		font-size: 0;
+	}
+	&__wrapper {
+		padding-left: 18px;
+		padding-right: 18px;
+
+	}
+	&__header {
+		padding: 0;
+		margin: 0;
+		margin-bottom: 13px;
+		font-family: SF Pro Display Bold;
+		font-size: 22px;
+		line-height: 26px;
+		color: #081531;
+	}
+	&__text {
+		padding: 0;
+		margin: 0;
+		margin-bottom: 32px;
+		font-family: SF Pro Display Regular;
+		font-size: 16px;
+		line-height: 25px;
+		color: #3E434F;
+	}
+	&__address {
+		position: relative;
+		padding-left: 55px;
+		padding-top: 5px;
+   		padding-bottom: 5px;
+   		margin-bottom: 22px;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 50px;
+			height: 50px;
+			margin-top: -25px;
+			background: transparent url('../img/address-icon.png') no-repeat center;
+			
+		}
+		&-heading {
+			padding: 0;
+			margin: 0;
+			font-family: SF Pro Display Regular;
+			font-size: 16px;
+			line-height: 19px;
+			color: #081531;
+		}
+		&-city {
+			padding: 0;
+			margin: 0;
+			font-family: SF Pro Display Regular;
+			font-size: 13px;
+			line-height: 16px;
+			color: #969696;
+		}
+	}
+	&__scale {
+		height: 8px;
+		margin-bottom: 14px;
+		border-radius: 10px;
+		background: #D2D2D2;
+		&-into {
+			width: 87%;
+			height: 100%;
+			border-radius: 10px;
+			background: #4640DE;
+		}
+	}
+	&__progress {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		&-header {
+			padding: 0;
+			margin: 0;
+			margin-bottom: 4px;
+			font-family: SF Pro Display Medium;
+			font-size: 12px;
+			line-height: 137.7%;
+			color: #969696;
+		}
+		&-dollar {
+			padding: 0;
+			margin: 0;
+			font-family: SF Pro Display Bold;
+			font-size: 20px;
+			line-height: 137.7%;
+			color: #081531;
+		}
+	}
+}
