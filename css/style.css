@@ -60,6 +60,7 @@ img {
   width: 90.4%;
   margin: 0 auto;
   padding: 0 4.8%;
+  max-width: 1332px;
   /*box-sizing: border-box;*/
   display: flex;
   flex-wrap: no-wrap;
@@ -356,6 +357,7 @@ img {
   width: 90.4%;
   margin: 0 auto;
   padding: 0 4.8%;
+  max-width: 1332px;
   /*box-sizing: border-box;*/
 }
 @media (min-width: 768px) {
