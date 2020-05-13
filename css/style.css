@@ -556,7 +556,7 @@ img {
 }
 @media (max-width: 767px) {
   .block-search__categories-item {
-    width: 49%;
+    width: 48%;
   }
 }
 @media (min-width: 768px) {
